@@ -388,6 +388,9 @@
                 <version>2.7</version>
             </plugin>
             
+            
+            <!-- Cobertura Plugin -->
+            <!-- 
             <plugin>
 		        <groupId>org.codehaus.mojo</groupId>
 		        <artifactId>cobertura-maven-plugin</artifactId>
@@ -398,6 +401,7 @@
                     </formats>
                 </configuration>
 		    </plugin>
+		     -->
             
         </plugins>
     </build>
@@ -473,6 +477,8 @@
                 </reportSets>
             </plugin>
             
+            <!-- 
+            
             <plugin>
 		        <groupId>org.apache.maven.plugins</groupId>
 		        <artifactId>maven-pmd-plugin</artifactId>
@@ -483,10 +489,8 @@
 		        <groupId>org.codehaus.mojo</groupId>
 		        <artifactId>jdepend-maven-plugin</artifactId>
 		        <version>2.0</version>
-		    </plugin>
-		    
-
-		      
+		    </plugin>	      
+       -->
       
         </plugins>
     </reporting>
