@@ -144,7 +144,6 @@
             Each mojo is an executable goal in Maven, and a plugin is a distribution of
             one or more related mojos.
             For more information see http://maven.apache.org/plugin-developers/index.html
-
             The following plugins are ordered according the Maven build lifecycle.
             http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
             -->
@@ -195,9 +194,8 @@
            <!--  새로운 로직  -->
            
            
-           <!-- 
+         
             <plugin>
-
                 <groupId>com.google.code.maven-replacer-plugin</groupId>
                 <artifactId>replacer</artifactId>
                 <version>1.5.3</version>
@@ -219,7 +217,7 @@
                 </configuration>
             </plugin>
             
-             -->
+         
             
             <plugin><!-- Using jdk 1.5.0_22, package-info.java files are compiled correctly. -->
                 <!--
@@ -266,9 +264,8 @@
                 </executions>
             </plugin>
             
-            <!-- 
+           
             <plugin>
-
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>${surefireVersion}</version>
                 <configuration>
@@ -284,7 +281,7 @@
                     </dependency>
                 </dependencies>
             </plugin>
-            -->
+          
             
             <plugin>
                 <!--
