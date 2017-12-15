@@ -389,20 +389,16 @@
             </plugin>
             
             
-            <!-- Cobertura Plugin -->
-            <!-- 
             <plugin>
-		        <groupId>org.codehaus.mojo</groupId>
-		        <artifactId>cobertura-maven-plugin</artifactId>
-		        <version>2.7</version>
-		        <configuration>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>cobertura-maven-plugin</artifactId>
+                <version>2.5.1</version>
+                <configuration>
                     <formats>
                         <format>xml</format>
                     </formats>
                 </configuration>
-		    </plugin>
-		     -->
-            
+            </plugin>
         </plugins>
     </build>
 
@@ -483,12 +479,7 @@
 		        <version>3.8</version>
 		    </plugin>
 		    
-		    <plugin>
-		        <groupId>org.codehaus.mojo</groupId>
-		        <artifactId>cobertura-maven-plugin</artifactId>
-		        <version>2.7</version>
-		    </plugin>
-		            
+
             
             <!-- 
             
